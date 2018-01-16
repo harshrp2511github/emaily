@@ -1,9 +1,7 @@
-// keys.js figure out what sets of credentials to return
-
 if (process.env.NODE_ENV === 'production') {
-  //production
+  //product
   module.exports = require('./prod');
 } else {
-  //development
+  //dev
   module.exports = require('./dev');
 }
